@@ -20,7 +20,7 @@ namespace hada_p1
         {
             return (s == 0) ? 0 : s * 60;
         }
-        //
+        
         /// <summary>
         /// Este metodo convierte de minutos a segundos
         /// </summary>
@@ -30,5 +30,6 @@ namespace hada_p1
         {
             return m/60;
         }
+        //
     }
 }
