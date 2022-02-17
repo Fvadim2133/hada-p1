@@ -18,7 +18,7 @@ namespace hada_p1
         /// <returns></returns>
         public static double Seconds2Minutes(double s)
         {
-            return (s == 0) ? 0 : s * 60;
+            return (s == 0) ? 0 : s/60;
         }
         
         /// <summary>
@@ -28,7 +28,7 @@ namespace hada_p1
         /// <returns></returns>
         public static double Minutes2Seconds(double m)
         {
-            return m/60;
+            return m * 60;
         }
         /// <summary>
         /// Convierte de horas a minutos
@@ -38,7 +38,7 @@ namespace hada_p1
 
         public static double Hours2Minutes(double m)
         {
-            return m / 60;
+            return m * 60;
         }
     }
 }
